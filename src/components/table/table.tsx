@@ -3,9 +3,6 @@ import TableHead from "./tableHead";
 import TableRow from "./tableRow";
 
 export default function Table({ orders, tableRef }: treeInputs) {
-  console.log({
-    myTableOrders: orders,
-  });
   return (
     <div className="w-full rounded-lg border border-gray-200 shadow-md overflow-x-auto bg-white ">
       <table

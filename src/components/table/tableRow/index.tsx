@@ -30,7 +30,7 @@ export default function TableRow({ order, index }: rowInputs) {
       </td>
       <CustomTextInput
         content={orderTypes[order?.orderType]?.name}
-        Color={orderTypes[order?.orderType].Color}
+        Color={orderTypes[order?.orderType]?.Color}
       />
       <td className="py-6 flex-1 " style={{ color: "#2E2E2E" }}>
         {order.tableId != null ? "table" + order?.tableId.name : "No table"}
